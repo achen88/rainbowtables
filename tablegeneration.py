@@ -1,20 +1,14 @@
 import hashlib
 import time
- 
-totalTables = 5
- 
-tableLength = 35220
-chainLength = 500
-passwordLength = 4
- 
-hashLength = 32
- 
+
+
+#read in values
+
+
 nextInitPass = [0]
 modulus = 0
 for i in range(1, 1 + passwordLength):
     modulus += 62 ** i
- 
-alphabet = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
  
 def base62(decimalR, n):
     digit = ''
