@@ -1,9 +1,6 @@
 totalTables 5
-
 tableLength 35220
 chainLength 500
 passwordLength 4
- 
 hashLength 32
-
 alphabet '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
